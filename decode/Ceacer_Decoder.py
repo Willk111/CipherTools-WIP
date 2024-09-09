@@ -1,8 +1,8 @@
-#Ceacer Cyper Decoder 
+#Ceacer Cyper Decoder By WIlliam K
 
 #User imput for the encoded message
 ciphertext = input("Please ender your encoded message: ")
-shift = int(input("Please enter the posotive shift letter you want to use: "))
+shift = int(input("Please enter the posotive shift number you want to use: "))
 
 #Single letter Decoder Function
 def decode_letter(letter, shift):
