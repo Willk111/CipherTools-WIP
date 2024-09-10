@@ -13,6 +13,7 @@ def decode_letter(letter, shift):
         #Applying the reverse shift (%26 is to ensure alphabet wrap around)
         new_pos = (original_pos - shift) % 26 
         return chr(start + new_pos)
+    
     else:
         return letter
     
