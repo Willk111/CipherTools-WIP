@@ -1,6 +1,5 @@
-#Vigenère Cipher DEcoder by WIlliam K (Not working atm)
+#Vigenère Cipher DEcoder by WIlliam K 
 
-#Get the cipher text and key form the user:
 ciphertext = input("Please enter the message you would like to decode (remove all spaces and numbers in the message): ")
 keyword = input("Now please enter your keyword: ")
 
